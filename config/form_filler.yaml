@@ -1,0 +1,14 @@
+url: "https://sistema-legado.empresa.com/formulario"
+fields:
+  - selector: "#nome"
+    value: "Gabriel Kaique"
+    action: fill
+  - selector: "#departamento"
+    value: "TI"
+    action: select
+  - selector: "#data_solicitacao"
+    value: "2025-01-01"
+    action: fill
+  - selector: "#aceito_termos"
+    action: check
+submit: "button#enviar"
